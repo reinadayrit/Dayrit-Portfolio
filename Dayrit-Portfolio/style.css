@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: Poppins, Helvetica;
+}
+
+p{
+  font-family: Poppins, Helvetica;
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{
+  margin-top: 10%; 
+  padding-top: 120px; 
+  color: white;
+  font-family: Poppins, Helvetica;
+  font-size: 35px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+h3{
+  margin-top: 10%; 
+  font-family: Poppins, Helvetica;
+  font-size: 22px;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.intro{
+    display: block;
+    color: #ffffff; 
+    padding-left: 200px;
+    padding-top: 150px;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 80px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(34, 34, 34));
+}
+
+.intro1{
+  display: block;
+  color: #ffffff; 
+  padding-left: 170px;
+  padding-top: 150px;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 60px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(34, 34, 34));
+}
+
+.introdes{
+    color: #ffffff;
+    padding-left: 9rem;
+    padding-top: 60px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.learnmore{
+    color: #ffffff;
+    padding-left: 23rem;
+    padding-top: 150px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.bgimg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, .80)),url(../Dayrit-Portfolio/img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#main{
+    padding-top: 90px;
+    height: 80vh;
+}
+
+*{
+  padding:0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav{
+  background: rgb(255, 255, 255);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+}
+
+nav ul{
+  float: right;
+  margin-right: 100px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 9px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 5px;
+}
+
+a:hover{
+  background-color: black;
+  color: white !important;
+}
+
+.pclass{
+  margin: 5% 20% 20% 20%;
+  line-height: 1.4;
+}
+
+.pcontent p{
+  margin: 1% 5% 4% 5%;
+  line-height: 1.4;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.scroll{
+  scroll-behavior: smooth;
+}
+
+.logo{
+  position:center;
+  font-size: 35px;
+  line-height: 70px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+.footer {
+  margin: 0px;
+  position: fixed;
+  border-style: solid;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 20%;
+  height: 45px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  border-inline-color: #ffffff;
+  border:none;
+}
+
+.footerc{
+  font-size: 15px;
+}
+
+.login{
+  margin-top: -70px !important;
+}
+
+.register1{
+  margin-top: -135px !important;
+}
+
+form {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, .80)),url(../Dayrit-Portfolio/img/background.jpg);
+   margin-right: 100px;
+   position: center;
+   margin-top: 200px;
+   padding-top: 0px;
+   font-family:Poppins, Helvetica, sans-serif, cursive;
+   background-color: #fff;
+   color: #000;
+   padding: 20px;
+   border-radius: 5px;
+   width: 300px;
+ }
+ 
+.black{
+  color:black;
+}
+
+.white{
+  color:rgb(255, 255, 255)
+}
+ 
+ input[type="text"], input[type="password"] {
+  border: 1px solid #000;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 3px;
+ }
+ 
+ input[type="submit"] {
+   display: block;
+   font-size: small;
+   font-family:Poppins, Helvetica, sans-serif, cursive;
+   background-color: #fff;
+   width: 100%;
+   padding: 10px;
+   border: none;
+   border-radius: 3px;
+   background-color: #4a4a4a;
+   color: #fff;
+   cursor: pointer;
+ }
+ 
+ input[type="submit"]:hover {
+   background-color: #000000;
+ }
+
+.img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, .80)),url(../Dayrit-Portfolio/img/reina.JPG);
+  width: 50;
+  height:50;
+}
+
+.center-form {
+  width: 25%; 
+  margin: 0 auto; 
+}
+
+.mywork{
+  display: block;
+  color: #ffffff; 
+  padding-top: 150px;
+  text-decoration: none;
+  font-size: 60px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(34, 34, 34));
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+}
+
+.register{
+  font-size: small;
+  text-align: right;
+}
+
+.small{
+  font-size: xx-small ;
+}
+
+.picture-container {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-left: 265px;
+  padding-bottom: 100px;
+  width: 80%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right{
+  padding-left: 100px;
+}
+
+img[src="img/logo.png"]:hover {
+  background-color:black;
+}
+
+.img {
+  border-radius: 50%;
+  margin-top:-10px;
+  margin-right: 110px;
+  width: 412px;
+  height: 398px;
+  left: 780px;
+  top: 167px;
+  position: float;
+  float:right;
+}
+
+.username {
+  font-weight: bold;
+}
